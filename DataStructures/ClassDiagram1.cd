@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataStructures.Reporting.BaseReport">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAgAAAABAAAAABAAEAAgAAAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>NewReporting\Base\BaseReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Reporting.BaseReportData">
+    <Position X="4.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAgAAAAIQAACAAAgAAAAAAAAAAAAAAAACAQBAA=</HashCode>
+      <FileName>NewReporting\Base\BaseReportData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Reporting.ReportInformation">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAAAAQAACCAABAAgAAAAAQAAAAABAEAQAQA=</HashCode>
+      <FileName>NewReporting\ReportInformation\ReportInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Reporting.ReportProvider">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewReporting\Provider\ReportProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Reporting.MonthlyReportData&lt;T&gt;">
+    <Position X="0.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAAAACAAAAAAAAAQAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>NewReporting\ReportData\MonthlyReportData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Reporting.YearlyReportData&lt;T&gt;">
+    <Position X="10.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAABAAAIQAACAAAgAAAAAIAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>NewReporting\ReportData\YearlyReportData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Reporting.DensityReport&lt;T&gt;">
+    <Position X="8" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAQAAE=</HashCode>
+      <FileName>NewReporting\Reports\Density\DensityReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Reporting.MissingDataReport&lt;T&gt;">
+    <Position X="0.75" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAgCAAAAAAAAAAAUAAAIAAAAACQAABAAAAAABAA=</HashCode>
+      <FileName>NewReporting\Reports\MissingData\MissingDataReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Reporting.SpeedReport&lt;T&gt;">
+    <Position X="3.5" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAQAAE=</HashCode>
+      <FileName>NewReporting\Reports\Speed\SpeedReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Reporting.VoltageReport&lt;T&gt;">
+    <Position X="5.75" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAQAAE=</HashCode>
+      <FileName>NewReporting\Reports\Voltage\VoltageReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Reporting.VolumeReport&lt;T&gt;">
+    <Position X="10.25" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAgCAAAAAAAAAAAUAAAIAAAAACQAABAAAAAAAAA=</HashCode>
+      <FileName>NewReporting\Reports\Volume\VolumeReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASTITransportation.DataStructures.DateUtility">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ASTITransportation.DataStructures.DateUtility.Quarter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NewReporting\Utility\DateUtility.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAApAAAAAAECMAEAEAAABACBIAACAwgAAAA=</HashCode>
+      <FileName>NewReporting\Utility\DateUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DataStructures.Reporting.IReport&lt;T&gt;">
+    <Position X="0.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAEAAEEQAAE=</HashCode>
+      <FileName>NewReporting\Interfaces\IReport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
